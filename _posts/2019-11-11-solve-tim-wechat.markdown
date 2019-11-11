@@ -27,7 +27,7 @@ cover: '../assets/test.png'
 sudo docker run hello-world
 {% endhighlight %}
 
-![p1](../assets/Solve-Tim-WeChat/p1.jpeg)
+![p1](/assets/Solve-Tim-WeChat/p1.jpeg)
 
 2. 然后从`Docker Hub` 上获取 `bestwu/qq`
 命令行中输入如下内容
