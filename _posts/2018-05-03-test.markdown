@@ -9,15 +9,13 @@ tags: test
 ---
 ## 代码测试
 
-```python
-import jieba
-
-def fun():
-    printf("123")
-	printf("123")
-
-printf("hello word")
-```
+{% highlight python %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
 ## bash64图片测试
 ![测试][p1]
@@ -56,7 +54,7 @@ Elements can have attributes, which control how the elements work. For example, 
 * And another item
 
 ### Nested list
-
+{% highlight html linenos %}
 <ul>
   <li>First item</li>
   <li>Second item
@@ -79,6 +77,7 @@ Elements can have attributes, which control how the elements work. For example, 
   </li>
   <li>Third item</li>
 </ul>
+{% endhighlight %}
 
 ### Definition List
 
@@ -91,6 +90,8 @@ HTML also supports definition lists.
   <dd>Typically aged in wooden barrels for between two and eleven months...</dd>
 </dl>
 
+
+  
 ## Blockquotes
 
 The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
@@ -106,8 +107,13 @@ Blockquote with a citation.
   <footer>— <cite>Steve Wozniak</cite></footer>
 </blockquote>
 
+
+
 According to Mozilla's website, <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0 was released in 2004 and became a big success.</q>
 
+
+
+  
 ## Tables
 
 Tables aren't part of the core Markdown spec, but Hugo supports them.
@@ -150,7 +156,7 @@ You can also use inline Markdown.
 </html>
 ```
 
-{{< highlight html >}}
+{% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -161,7 +167,7 @@ You can also use inline Markdown.
   <p>Test</p>
 </body>
 </html>
-{{< /highlight >}}
+{% endhighlight %}
 
 ## Other stuff — abbr, sub, sup, kbd, etc.
 
