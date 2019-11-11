@@ -27,7 +27,7 @@ cover: '../assets/test.png'
 sudo docker run hello-world
 {% endhighlight %}
 
-![p1](assets/Solve-Tim-WeChat/p1.jpeg)
+![p1](https://qifengvs.github.io/assets/Solve-Tim-WeChat/p1.jpeg)
 
 2. 然后从`Docker Hub` 上获取 `bestwu/qq`
 命令行中输入如下内容
@@ -35,7 +35,7 @@ sudo docker run hello-world
 sudo docker pull bestwu/qq
 {% endhighlight %}
 
-![p2](../assets/Solve-Tim-WeChat/p2.png)
+![p2](https://qifengvs.github.io/assets/Solve-Tim-WeChat/p2.png)
 
 ~~这里我已经获取过了，第一次可能要稍微等待一会儿~~
 
@@ -45,7 +45,7 @@ sudo docker pull bestwu/qq
 getent group audio | cut -d: -f3
 {% endhighlight %}
 
-![p3](../assets/Solve-Tim-WeChat/p3.png)
+![p3](https://qifengvs.github.io/assets/Solve-Tim-WeChat/p3.png)
 
 parrotsec系统中，值为 29
 
@@ -75,7 +75,7 @@ services:
      - UID=$UID # 可选 默认1000 主机当前用户 uid 解决挂载目录访问权限问题
 {% endhighlight %}
 
-![p4](../assets/Solve-Tim-WeChat/p4.png)
+![p4](https://qifengvs.github.io/assets/Solve-Tim-WeChat/p4.png)
 
 5. 最后通过该配置文件启动即可
 命令行中输入如下内容
@@ -83,13 +83,13 @@ services:
 sudo docker-compose -f docker-tim.yml up
 {% endhighlight %}
 
-![p5](../assets/Solve-Tim-WeChat/p5.png)
+![p5](https://qifengvs.github.io/assets/Solve-Tim-WeChat/p5.png)
 
 6. 桌面自动跳出TIM登录界面
 ![p6](../assets/Solve-Tim-WeChat/p6.png)
 
 7. 登录即可，你会发现各种功能都是正常的
-![p7](../assets/Solve-Tim-WeChat/p7.png)
+![p7](https://qifengvs.github.io/assets/Solve-Tim-WeChat/p7.png)
 
 ## Wechat安装
 
