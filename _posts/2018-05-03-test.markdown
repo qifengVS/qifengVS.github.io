@@ -57,7 +57,7 @@ Elements can have attributes, which control how the elements work. For example, 
 {% highlight html linenos %}
 <ul>
   <li>First item</li>
-  <li>Second item
+  <li>
     <ul>
       <li>Second item First subitem</li>
       <li>Second item second subitem
